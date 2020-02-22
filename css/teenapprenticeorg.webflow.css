@@ -159,19 +159,19 @@
   margin-left: 35px;
   padding-right: 0px;
   padding-left: 0px;
-  -webkit-transition: text-shadow 400ms ease;
-  transition: text-shadow 400ms ease;
+  -webkit-transition: color 400ms ease;
+  transition: color 400ms ease;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #e72239;
   font-weight: 400;
-  text-align: center;
+  text-align: right;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .nav-button:hover {
+  color: #b2192b;
   font-weight: 400;
-  text-shadow: 0 0 5px #fcd581;
 }
 
 .nav-button.w--current {
@@ -179,6 +179,17 @@
   transition-property: none;
   color: #e72239;
   font-weight: 700;
+}
+
+.nav-button.twitter {
+  -webkit-transition: color 400ms ease;
+  transition: color 400ms ease;
+  color: #1a8ef7;
+}
+
+.nav-button.twitter:hover {
+  color: #1479d4;
+  text-shadow: none;
 }
 
 .text-block {
@@ -510,6 +521,26 @@
   color: transparent;
 }
 
+.twitter-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
   .heading-2 {
     margin-right: 8%;
@@ -576,7 +607,7 @@
   .heading-2 {
     font-size: 24px;
   }
-  .nav-button.social-media {
+  .nav-button.twitter {
     width: 100px;
     margin-right: 0px;
     margin-left: 0px;
@@ -586,7 +617,7 @@
     -webkit-transition-property: none;
     transition-property: none;
   }
-  .nav-button.social-media:hover {
+  .nav-button.twitter:hover {
     text-shadow: none;
   }
   .nav-menu {
