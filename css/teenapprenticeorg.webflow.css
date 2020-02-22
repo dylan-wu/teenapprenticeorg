@@ -543,6 +543,13 @@
     margin-right: 0%;
     margin-left: 0px;
   }
+  .nav-menu {
+    background-color: #fff8e8;
+  }
+  .button-3 {
+    margin-top: 15px;
+    margin-left: 322px;
+  }
   .footer {
     padding-right: 20px;
     padding-left: 20px;
@@ -552,6 +559,9 @@
 @media screen and (max-width: 767px) {
   .div-block {
     padding-left: 2%;
+  }
+  .button-3 {
+    margin-left: 223px;
   }
   .footer {
     padding: 40px 20px;
@@ -565,6 +575,28 @@
 @media screen and (max-width: 479px) {
   .heading-2 {
     font-size: 24px;
+  }
+  .nav-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff8e8;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+  }
+  .button-3 {
+    margin-top: 10px;
+    margin-left: 98px;
   }
   .footer {
     padding-right: 20px;
